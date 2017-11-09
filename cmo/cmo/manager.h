@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// perhaps i don't need this class?
 #pragma once
 class Manager
 {

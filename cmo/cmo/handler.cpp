@@ -3,14 +3,20 @@
 #include "request.h"
 
 
-Handler::Handler()
+Handler::Handler(int handler_number)
 {
-	// TODO
+	number = handler_number;
+	is_busy = false;
 }
 
 Handler::~Handler()
 {
 	// TODO
+}
+
+int Handler::get_number()
+{
+	return number;
 }
 
 bool Handler::get_is_busy()
