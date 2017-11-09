@@ -21,19 +21,19 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\event.h">
+    <ClInclude Include="event.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\handler.h">
+    <ClInclude Include="handler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\manager.h">
+    <ClInclude Include="manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\request.h">
+    <ClInclude Include="request.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\source.h">
+    <ClInclude Include="source.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,19 +41,19 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\event.cpp">
+    <ClCompile Include="event.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\handler.cpp">
+    <ClCompile Include="handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\manager.cpp">
+    <ClCompile Include="manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\request.cpp">
+    <ClCompile Include="request.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\source.cpp">
+    <ClCompile Include="source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cmo.cpp">

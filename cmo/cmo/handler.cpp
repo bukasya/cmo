@@ -5,7 +5,7 @@
 
 Handler::Handler()
 {
-	// TODO
+	is_busy = false;
 }
 
 Handler::~Handler()
@@ -13,14 +13,19 @@ Handler::~Handler()
 	// TODO
 }
 
-bool Handler::get_isBusy()
+bool Handler::get_is_busy()
 {
-	return this->isBusy;
+	return this->is_busy;
 }
 
-Event Handler::handle(Request request)
+void Handler::set_is_busy(bool value)
+{
+	is_busy = value;
+}
+
+/*Event Handler::handle(Request request)
 {
 	// TODO
 	//request.~Request();
-	return Event();
-}
+	//return Event();
+}*/
