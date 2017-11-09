@@ -143,21 +143,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\event.h" />
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\handler.h" />
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\manager.h" />
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\request.h" />
-    <ClInclude Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\source.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="handler.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="request.h" />
+    <ClInclude Include="source.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\event.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\handler.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\manager.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\request.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Jebsuz\Documents\CMO\vs_cmo\vs_cmo\source.cpp" />
     <ClCompile Include="cmo.cpp" />
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="handler.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="request.cpp" />
+    <ClCompile Include="source.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

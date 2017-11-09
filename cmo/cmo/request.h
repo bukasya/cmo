@@ -1,3 +1,5 @@
+#include <ctime>
+
 #pragma once
 class Request
 {

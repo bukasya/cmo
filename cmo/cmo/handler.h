@@ -6,8 +6,8 @@ class Handler
 public:
 	Handler();
 	~Handler();
-	bool get_isBusy();
-	Event handle(Request);
+	bool get_is_busy();
+	void set_is_busy(bool value);
 private:
-	bool isBusy;
+	bool is_busy;
 };

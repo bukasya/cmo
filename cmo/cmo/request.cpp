@@ -17,8 +17,6 @@ Request::Request(int source_number)
 Request::~Request()
 {
 	// TODO
-	//delete[] &generation_time;
-	//delete[] &source_number;
 }
 
 time_t Request::get_generation_time()
@@ -30,4 +28,3 @@ int Request::get_source_number()
 {
 	return source_number;
 }
-
