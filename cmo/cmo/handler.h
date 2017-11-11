@@ -9,6 +9,7 @@ public:
 	int get_number();
 	bool get_is_busy();
 	void set_is_busy(bool value);
+	void handle(Request r, int time);
 private:
 	int number;
 	bool is_busy;
