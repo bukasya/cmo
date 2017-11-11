@@ -2,9 +2,9 @@
 #include "event.h"
 
 
-Event::Event()
+Event::Event(string message)
 {
-	// TODO
+	this->message = message;
 }
 
 

@@ -1,8 +1,12 @@
+using namespace std;
+
 #pragma once
 class Event
 {
 public:
-	Event();
+	Event(string message);
 	~Event();
+private:
+	string message;
 };
 
