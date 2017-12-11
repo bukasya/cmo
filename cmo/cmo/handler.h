@@ -9,11 +9,11 @@ public:
 	int get_number();
 	bool get_is_busy();
 	void set_is_busy(bool value);
-	int get_uptime();
-	void set_uptime(int upt);
+	std::chrono::duration<double> get_uptime();
+	void set_uptime(std::chrono::duration<double> upt);
 	void handle(Request r, int time);
 private:
 	int number;
 	bool is_busy;
-	int uptime;
+	std::chrono::duration<double> uptime;
 };

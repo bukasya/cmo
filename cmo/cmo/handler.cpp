@@ -8,7 +8,7 @@ Handler::Handler(int handler_number)
 {
 	number = handler_number;
 	is_busy = false;
-	uptime = 0;
+	uptime = std::chrono::duration<double>::zero();;
 }
 
 Handler::~Handler()
@@ -31,12 +31,12 @@ void Handler::set_is_busy(bool value)
 	this->is_busy = value;
 }
 
-int Handler::get_uptime()
+std::chrono::duration<double> Handler::get_uptime()
 {
 	return this->uptime;
 }
 
-void Handler::set_uptime(int upt)
+void Handler::set_uptime(std::chrono::duration<double> upt)
 {
 	this->uptime += upt;
 }
